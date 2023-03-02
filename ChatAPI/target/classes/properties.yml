@@ -1,0 +1,37 @@
+components:
+  schemas:
+    User:
+      type: object
+      properties:
+        id:
+          type: long
+        fullName:
+          type: string
+        surName:
+          type: string
+        
+  
+    Message:
+        type: object
+        properties:
+        id:
+           type: long
+        sender:
+           type: string
+        recipient:
+           type: string
+        content:
+           type: string
+        messageStatus:
+           type: enum
+        sentTime:
+           type: localDateTime
+        recievedTime:
+           type: localDateTime
+        readTime:
+           type: localDateTime
+        
+            
+           
+        
+     
